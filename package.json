@@ -1,0 +1,14 @@
+{
+  "name": "music-player-gui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "window.js",
+  "scripts": {
+    "start": "node window.js"
+  },
+  "author": "Sandesh Jangir",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^21.1.1"
+  }
+}
