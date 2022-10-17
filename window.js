@@ -1,10 +1,15 @@
 const { app, BrowserWindow } = require('electron');
+const path = require('path')
 
-const createWindow = () => {
-  const win = new BrowserWindow({
+const createWindow = async () => {
+  const win = await new BrowserWindow({
     width: 1280,
     height: 9*70,
-    autoHideMenuBar: true
+    autoHideMenuBar: true,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false,
+  }
   });
 
   win.loadFile('Web/index.html');
