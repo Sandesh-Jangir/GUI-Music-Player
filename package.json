@@ -4,7 +4,7 @@
   "description": "",
   "main": "window.js",
   "scripts": {
-    "start": "node window.js"
+    "start": "electron window.js"
   },
   "author": "Sandesh Jangir",
   "license": "ISC",
