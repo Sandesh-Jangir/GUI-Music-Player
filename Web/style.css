@@ -15,18 +15,21 @@
     letter-spacing: 2px;
     font-family: 'Prata', serif;
     font-size: 3rem;
-    padding: 8vh 8vw;
+    padding: 4vh 8vw;
     color: white;
 }
 #main-grp{
-    height:70vh;
+    height:75vh;
     width: 84vw;
     position: absolute;
     left: 8vw;
     bottom: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
+    overflow: auto;
+    padding-right: 20px;
+    padding-bottom: 4vh;
 }
 .card{
     background-color: #dfdfdf;
@@ -61,4 +64,13 @@ audio::-webkit-media-controls-panel{
     font-size: 2rem;
     letter-spacing: -1px;
     z-index: 1;
+    color: #1F1F1F;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: white;
+  }
